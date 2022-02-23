@@ -13,7 +13,7 @@ const GetStarted = (props) => {
       </View>
 
       <View style={styles.textContainer}>
-        <Text style={{ fontSize: 20, marginTop: 10 }}>
+        <Text style={{ fontSize: 16, marginTop: 10 }}>
           {" "}
           OIS_MEDIA is the lastest and fastes Media In the World Now. We Design
           and Print STickers, Banners, and Others...
@@ -22,11 +22,11 @@ const GetStarted = (props) => {
       </View>
 
       <View style={styles.link}>
-      <TouchableOpacity  onPress={() => props.navigation.navigate("Register")}>
+      <TouchableOpacity onPress={() => props.navigation.navigate("Register")}>
         <Text style={{fontSize: 20, borderBottomWidth: 2}}>REGISTER</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity  onPress={() => props.navigation.navigate("Login")}>
+      <TouchableOpacity  onPress={() => props.navigation.navigate("SignIn")}>
         <Text style={{fontSize: 20, borderBottomWidth: 2}}>SIGN IN</Text>
       </TouchableOpacity>
     </View> 
