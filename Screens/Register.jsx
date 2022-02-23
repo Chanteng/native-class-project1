@@ -90,6 +90,7 @@ const styles = StyleSheet.create({
 
   textcontainer: {
     flex: 0.5,
+    paddingHorizontal: 16,
     marginTop: 2
   },
 

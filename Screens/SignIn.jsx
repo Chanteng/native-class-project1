@@ -23,14 +23,14 @@ const SignIn = (props) => {
    
    <Text style={{fontSize: 16, marginTop: 20, color: "red"}}>Email or Password incorrect, please check and try again.</Text>
     
-    <View style={{flexDirection: "row", justifyContent: "space-between", marginTop: 25}}>
+    <View style={{flexDirection: "row", justifyContent: "space-between", marginTop: 20}}>
     <Text style={{fontSize: 16}}>Email</Text>
     <TextInput placeholder='oismediagh@gmail.com' />
     </View>
     <TextInput placeholder='Type Here' style={{borderBottomColor: "blue", borderBottomWidth: 1}} />
     
     <View>
-    <View style={{flexDirection: "row", justifyContent: "space-between", marginTop: 25}}>
+    <View style={{flexDirection: "row", justifyContent: "space-between", marginTop: 20}}>
     <Text style={{fontSize: 16}}>Password</Text>
     <TextInput placeholder='Abeg type your thing' />
     </View>
