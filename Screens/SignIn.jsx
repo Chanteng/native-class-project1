@@ -9,7 +9,7 @@ const SignIn = (props) => {
         <TouchableOpacity  >
       <Entypo name="arrow-left" size={30} color="white" onPress={() => props.navigation.goBack()} />
       </TouchableOpacity>
-      <Text style={{fontSize: 30, marginLeft: 120, color: "white"}}>SignIn</Text>
+      <Text style={{fontSize: 30, marginLeft: 120, color: "white"}}>Sign In</Text>
       </View>
 
       <View style={styles.imageContainer}>
@@ -38,7 +38,7 @@ const SignIn = (props) => {
     
   
   <View style={styles.btn}>
-    <TouchableOpacity  onPress={() => props.navigation.navigate("Home")} >
+    <TouchableOpacity  onPress={() => props.navigation.navigate("MyProfile")} >
       <Text style={{fontSize: 24, color: "white", fontWeight: "bold"}}>SIGN IN</Text>
     </TouchableOpacity>
   </View>
